@@ -1,1 +1,41 @@
+# Library for Startup Success Prediction
 
+# Data Handling and Manipulation
+import pandas as pd     # for processing and manipulation data table
+import numpy as np      # for numeric and array operation
+
+# Data Visualization
+import matplotlib as mpl                   # for basic visualization
+from matplotlib import pyplot as plt       # for basic visualization
+import seaborn as sns                      # for interactive statistics visualization
+import plotly.express as px                # for fast visualization (like a scatter, bar, line, etc)
+import plotly.graph_objects as go          # for advanced graphics customization
+import plotly.figure_factory as ff         # for special visualizations (such as dendograms and confusion matrices)
+from plotly.colors import n_colors         # to create color gradation
+from plotly.subplots import make_subplots  # to compare multiple plots in one layout
+
+# Date
+from datetime import date      # to read the date
+
+# Analysis and Statistic
+from scipy import stats             # to test statistics and correlation
+from scipy.stats import norm, skew  # for some advance statistics
+
+# Modelling and Evaluation
+from sklearn.model_selection import train_test_split      # to split data train and data test
+from sklearn.metrics import confusion_matrix, classification_report,accuracy_score,roc_curve, auc, precision_recall_curve, f1_score      # to calculate the model evaluation value
+from xgboost import XGBClassifier                         # to create XGBClassifier
+from sklearn.ensemble import GradientBoostingClassifier   # to create GradientBoostingClassifier
+from sklearn.ensemble import AdaBoostClassifier           # to create AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier       # to create RandomForestClassifier
+from sklearn.naive_bayes import GaussianNB                # to create GaussianNaiveBayes
+from sklearn import svm                                   # to create SupportVectorMachine
+from sklearn.neighbors import KNeighborsClassifier        # to create KNearestNeighboursClassifier
+from sklearn import tree                                  # to create DesisionTreeClassifier
+from sklearn.neural_network import MLPClassifier          # to create NeuralNetworkClassifier
+from sklearn.metrics import precision_score               # to calculate precision_score
+from sklearn.metrics import recall_score                  # to calculate recall_score
+
+# warning notification
+import warnings
+warnings.filterwarnings("ignore")
