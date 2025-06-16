@@ -42,6 +42,11 @@ values = ['4', '3', '2', '1']
 # create a new column tier_realtionships
 df['tier_relationships'] = np.select(conditions, values)
 
+# label encoder for startup status
+le = LabelEncoder()
+df['status_encoded'] = le.fit_transform(df['status'])
+print(df)
+
 # Drop Unused Column for Modelling
 df = df.drop(['state_code'],axis=1)
 df = df.drop(['id'],axis=1)
@@ -59,3 +64,4 @@ df = df.drop(['Unnamed: 0'],axis=1)
 df = df.drop(['latitude','longitude'],axis=1)
 df = df.drop(['age_closed_startup'],axis=1)
 df = df.drop(['relationships'],axis=1)
+df = df.drop(['status'],axis=1)
