@@ -21,6 +21,9 @@ from datetime import date      # to read the date
 from scipy import stats             # to test statistics and correlation
 from scipy.stats import norm, skew  # for some advance statistics
 
+# Data Preprocessing
+from sklearn.preprocessing import LabelEncoder
+
 # Modelling and Evaluation
 from sklearn.model_selection import train_test_split      # to split data train and data test
 from sklearn.metrics import confusion_matrix, classification_report,accuracy_score,roc_curve, auc, precision_recall_curve, f1_score      # to calculate the model evaluation value
