@@ -68,7 +68,7 @@ The project using data that from kaggle platform with as follow information:
 
 | Name | Role | GitHub |
 |------|-------|--------|
-| Shodiq Wahyu | Startup Analysis | [me](https://github.com/odiqwr) |
+| Shodiq Wahyu | Startup Analysis | [@odiqwr](https://github.com/odiqwr) |
 
 ## 📄 License
 
