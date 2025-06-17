@@ -1,26 +1,25 @@
-# Inventory Pattern Optimization (I-POP)
+# Startup Success Prediction
 
-> Inventory Optimization with Product Reorder Detection Using Unsupervised Learning
+> Predicting Startup Feasibility for Investment Decision Support Using Supervised Learning
 
-## 🚀 Overview
+## 📌 Overview
 
-Many businesses face challenges in managing inventory because it is difficult to predict the timing and quantity of product reorders. Through this project, **I-POP** (*Inventory Product Order Prediction*) is present as a system that utilizes the **Association Rule Learning** method to analyze purchasing patterns and recommend product reorders automatically. This solution helps businesses prevent stock shortages, reduce waste and increase operational efficiency.
+Many startups fail in the first few years due to lack of funding, poor business models, or market mismatch. Through this project, SSP (Startup Success Prediction) is developed as a system that uses classification learning to predict whether a startup will succeed or fail based on its key characteristics. This model aims to support investors and entrepreneurs in making more accurate and effective decisions.
 
 ## 🎯 Objectives
 
-- Optimize inventory management by reducing stockouts and overstocks through data-driven reorder recommendations.
-- Apply unsupervised learning (Association Rule Learning) to discover product purchase patterns without labeled data.
-- Build a reusable pipeline for rule extraction and evaluate its integration potential in real-time inventory systems.
-
+- Drive effective business decision making through measurable and reliable data predictions.
+- Evaluation and comparison of the performance of nine supervised learning algorithms for startup success status classification
+- Development of a predictive system ready to be implemented as a tool for selecting and assessing start-up companies.
+  
 ## 📊 Dataset
 
 The project using data that from kaggle platform with as follow information:
-- Title : **Grocery Inventory**
-- Description : Sales Dataset Inventory and Sales Data for Grocery Store Management.
-- Publish Date : 03/2025
-- Publisher : Willian Oliveira
-- Link : https://www.kaggle.com/datasets/willianoliveiragibin/grocery-inventory
-
+- Title : **Startup Success Prediction**
+- Description : Can you predict if a start-up will succeed or fail?.
+- Publish Date : 06/2020
+- Publisher : Manish Kumar
+- Link : [Startup Data](https://www.kaggle.com/datasets/manishkc06/startup-success-prediction)
 
 ## 🛠️ Tech Stack
 
@@ -37,37 +36,39 @@ The project using data that from kaggle platform with as follow information:
   </tr>
   <tr>
     <td>Main library</td>
-    <td>Pandas,NumPy </br>PyFPGrowth </br>Matplotlib,Seaborn</td>
-    <td>For data manipulation and numerical calculations </br> For application FP-Growth Algorithm </br>For graphic visualization and association pattern</td>
+    <td>Pandas,NumPy, </br>sklearn </br>Matplotlib,Seaborn</td>
+    <td>For data manipulation and numerical calculations </br> For application machine learning Algorithm </br>For graphic visualization and business insight</td>
   </tr>
   <tr>
     <td>Tools</td>
-    <td>Google Colab </br>Github </br>Kaggle</td>
+    <td>Jupyter </br>Github </br>Kaggle</td>
     <td>For cloud-based experiments and notebook execution </br>For controlling, documentation, and collaboration in project </br>To access dataset</td>
   </tr>
 </table>
 
 ## ⚙️ System Architecture
 > akan diisi diagram proses mesin belajar dengan algoritma FP-Growth
+
 ## 📈 Results
 > akan diisi hasil evaluasi model dan aturan yang digunakan
+
 ## 🧠 Learned
 
-- Implemented FP-Growth for extracting product association rules from transactional data.
-- Performed data preprocessing and transformation tailored for unsupervised learning.
-- Visualized item patterns and rule metrics to support inventory decision-making.
-- Used GitHub and Google Colab for version control and cloud-based experimentation.
+- Built a complete ML pipeline for binary classification using startup data.
+- Performed data preprocessing including handling missing values and encoding categorical features.
+- Conducted feature selection and model tuning to improve accuracy.
+- Visualized key patterns related to startup success using EDA techniques.
 
 ## 🌱 Future Work
 
-- Integrate the model with real-time inventory systems for automated reorder actions.
-- Extend the analysis with temporal and seasonal data to capture dynamic demand patterns.
-- Combine unsupervised and supervised learning to improve prediction accuracy.
+- Deploy the model into a web interface to predict startup outcomes based on user input.
+- Extend dataset with external funding or market-related data to enhance prediction power.
+  
 ## 👤 Author
 
-| Nama | Peran | GitHub |
+| Name | Role | GitHub |
 |------|-------|--------|
-| Shodiq Wahyu | ML Developer | [@odiqwr](https://github.com/odiqwr) |
+| Shodiq Wahyu | Startup Analysis | [me](https://github.com/odiqwr) |
 
 ## 📄 License
 
