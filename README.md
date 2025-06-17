@@ -37,7 +37,7 @@ The project using data that from kaggle platform with as follow information:
   <tr>
     <td>Main library</td>
     <td>Pandas,NumPy, </br>sklearn </br>Matplotlib,Seaborn</td>
-    <td>For data manipulation and numerical calculations </br> For application machine learning Algorithm </br>For graphic visualization and business insight</td>
+    <td>For data manipulation and numerical calculations </br> For modelling machine learning and preprocessing data </br>For graphic visualization and business insight</td>
   </tr>
   <tr>
     <td>Tools</td>
